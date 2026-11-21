@@ -1,6 +1,6 @@
 name: docs
 
-on: defaults:
+on::
   
   push:
   workflow_dispatch:
