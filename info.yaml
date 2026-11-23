@@ -1,24 +1,24 @@
 # Tiny Tapeout project information (Wokwi project)
-project:1234
-  wokwi_id:     481433464545601537       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "Circuito Logico S y Cout"      # b
-  author:       "Pedro Javier Alvarez Lara"      # m
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Circuito logico personalizado de tres entradas A, B y C, con dos salidas S y Cout."      # "counter"
-  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+project: 1234
+wokwi_id: 481433464545601537 # Set this to the ID of your Wokwi project (the number from the project's URL)
+title: "Circuito Logico S y Cout"      # b
+author: "Pedro Javier Alvarez Lara"      # m
+discord: "" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+description:  "Circuito logico personalizado de tres entradas A, B y C, con dos salidas S y Cout."      # "counter"
+language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 340x160 uM.
-  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 3x4 or 4x4
+tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 3x4 or 4x4
 
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "C"
-  ui[1]: "B"
-  ui[2]: "A"
+  ui[0]:  "C"
+  ui[1]:  "B"
+  ui[2]:  "A"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
@@ -26,8 +26,8 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "Cout"
-  uo[1]: "S"
+  uo[0]:  "Cout"
+  uo[1]:  "S"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
