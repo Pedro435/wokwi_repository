@@ -6,10 +6,9 @@ project:
   discord: "" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Circuito logico personalizado de tres entradas A, B y C, con dos salidas S y Cout."      # "counter"
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
-
+  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)  
   # How many tiles your design occupies? A single tile is about 340x160 uM.
-tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 3x4 or 4x4
+  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 3x4 or 4x4
 
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
