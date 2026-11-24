@@ -1,10 +1,12 @@
-# Tiny Tapeout project information (Wokwi project)
+# Tiny Tapeout project in
+
+formation (Wokwi project)
 project:
-  wokwi_id: 481433464545601537 # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title: "Circuito Logico S y Cout"      # b
+  wokwi_id: 481533542664566785 # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title: "TinyLearn-1K"      # b
   author: "Pedro Javier Alvarez Lara"      # m
   discord: "" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description: "Circuito logico personalizado de tres entradas A, B y C, con dos salidas S y Cout."      # "counter"
+  description: "Fase 1: clasificador de mayoría de cuatro entradas. La salida y es 1 cuando al menos tres entradas son 1; de lo contrario, es 0."      # "counter"
   language: "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz: 0 # Clock frequency in Hz (or 0 if not applicable)  
   # How many tiles your design occupies? A single tile is about 340x160 uM.
@@ -15,18 +17,18 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]:  "C"
-  ui[1]:  "B"
-  ui[2]:  "A"
-  ui[3]: ""
+  ui[0]: "x0"
+  ui[1]: "x1"
+  ui[2]: "x2"
+  ui[3]: "x3"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]:  "Cout"
-  uo[1]:  "S"
+  uo[0]: "y"
+  uo[1]: ""
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
