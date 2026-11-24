@@ -15,15 +15,15 @@ The circuit uses NOT, AND and OR logic gates.
 
 The output S is defined by the following Boolean expression:
 
-[
+\[
 S = AB + A\overline{C} + B\overline{C}
-]
+\]
 
 The second output is defined as:
 
-[
+\[
 Cout = C
-]
+\]
 
 The circuit evaluates the input signals and generates both outputs according to these logical expressions.
 
